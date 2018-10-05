@@ -1,12 +1,13 @@
 html {
   background-color: #c9b5ab;
+  line-height: 1.5;
+  color: #222;
 }
 
 h1, h2 {
   font-family: 'PT Sans', sans-serif;
   color: #3f1622;
-  font-size: 1.55rem;
-
+  font-size: 1.5rem;
 }
 
 a:link:not(.wiki) {
@@ -45,6 +46,7 @@ figcaption {
   text-align: center;
   font-style: italic;
   font-size: 1.125rem;
+  color: #222;
 }
 
 .germination {
@@ -57,6 +59,7 @@ figcaption {
 p {
   font-family: 'PT Serif', serif;
   font-size: 0.88rem;
+  color: #222;
 }
 
 .varieties {
@@ -67,6 +70,7 @@ p {
 font-family: 'PT Serif', serif;
 font-size: 0.8rem;
 font-style: italic;
+color: #222;
 }
 
 dt {
@@ -77,6 +81,7 @@ dt {
   font-family: 'PT Serif', serif;
   list-style-type: circle;
   font-size: 0.88rem;
+
 }
 
 footer {
@@ -96,4 +101,18 @@ footer {
   color: #3f1622;
   text-decoration: underline;
   font-size: 0.8rem;
+}
+
+blockquote > div {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #222;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
 }
