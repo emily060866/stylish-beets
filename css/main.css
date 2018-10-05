@@ -1,3 +1,38 @@
 html {
   background-color: #c9b5ab;
 }
+
+h1, h2 {
+  font-family: 'PT Sans', sans-serif;
+  color: ##3f1622;
+  font-size: 1.55rem;
+
+}
+
+a:link {
+  color: #8f2440;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+.navigation {
+  list-style-type: none;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.germination {
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #222;
+}
+
+p {
+  font font-family: font-family: 'PT Serif', serif;
+  font-size: 0.88rem;
+}
